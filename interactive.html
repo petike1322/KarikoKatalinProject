@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karikó Katalin - Interaktív</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Karikó Katalin</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="biography.html">Életrajz</a></li>
+                <li><a href="scientific-work.html">Tudományos munkásság</a></li>
+                <li><a href="nobel-prize.html">Nobel-díj</a></li>
+                <li><a href="legacy.html">Hatás és örökség</a></li>
+                <li><a href="interactive.html" class="active">Interaktív</a></li>
+                <li><a href="sources.html">Források</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Interaktív Felfedezés</h1>
+        <p>Ismerd meg részletesen Karikó Katalin életútját és teszteld a tudásod!</p>
+    </header>
+
+    <!-- Részletes idővonal -->
+    <section id="timeline" class="timeline-section">
+        <h2>Részletes Idővonal</h2>
+        <div class="timeline-container">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">1955</div>
+                    <div class="timeline-content">
+                        <h3>Születés</h3>
+                        <p>Január 17-én született Szolnokon. Kisújszálláson nevelkedett.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">1973</div>
+                    <div class="timeline-content">
+                        <h3>Egyetemi évek</h3>
+                        <p>Megkezdi tanulmányait a szegedi József Attila Tudományegyetem biológus szakán.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">1978</div>
+                    <div class="timeline-content">
+                        <h3>Diploma és Kutatás</h3>
+                        <p>Diplomát szerez és ösztöndíjas lesz a Szegedi Biológiai Kutatóközpontban.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">1985</div>
+                    <div class="timeline-content">
+                        <h3>Emigráció az USA-ba</h3>
+                        <p>Családjával az Egyesült Államokba költözik, a philadelphiai Temple Egyetemen kezd dolgozni.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">1989</div>
+                    <div class="timeline-content">
+                        <h3>University of Pennsylvania</h3>
+                        <p>A UPenn kutatója lesz, ahol folytatja az mRNS-sel kapcsolatos munkáját.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">1997</div>
+                    <div class="timeline-content">
+                        <h3>Sorsdöntő találkozás</h3>
+                        <p>Megismerkedik Drew Weissmannal, akivel közös kutatásba kezdenek.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2005</div>
+                    <div class="timeline-content">
+                        <h3>Az Áttörés</h3>
+                        <p>Publikálják a korszakalkotó tanulmányt az mRNS nukleozid-módosításáról, amely kiküszöböli a gyulladásos választ.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2013</div>
+                    <div class="timeline-content">
+                        <h3>BioNTech</h3>
+                        <p>Csatlakozik a német BioNTech céghez alelnökként.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h3>COVID-19 Vakcina</h3>
+                        <p>Technológiájuk alapján engedélyezik a világ első mRNS-alapú vakcináját.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Nobel-díj</h3>
+                        <p>Orvostudományi Nobel-díjat kap Drew Weissmannal megosztva.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kvíz -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; display: block;">Teszteld a tudásod!</h2>
+            <div class="quiz-container">
+                <form id="quiz-form">
+                    <div class="quiz-question">
+                        <h3>1. Melyik magyar városban töltötte gyermekkorát Karikó Katalin?</h3>
+                        <div class="quiz-options">
+                            <label class="quiz-label"><input type="radio" name="q1" value="wrong"> Budapest</label>
+                            <label class="quiz-label"><input type="radio" name="q1" value="correct"> Kisújszállás</label>
+                            <label class="quiz-label"><input type="radio" name="q1" value="wrong"> Debrecen</label>
+                        </div>
+                    </div>
+                    <div class="quiz-question">
+                        <h3>2. Milyen molekulával foglalkozott egész életében?</h3>
+                        <div class="quiz-options">
+                            <label class="quiz-label"><input type="radio" name="q2" value="wrong"> DNS</label>
+                            <label class="quiz-label"><input type="radio" name="q2" value="correct"> mRNS</label>
+                            <label class="quiz-label"><input type="radio" name="q2" value="wrong"> Fehérje</label>
+                        </div>
+                    </div>
+                    <div class="quiz-question">
+                        <h3>3. Kivel osztotta meg a Nobel-díjat?</h3>
+                        <div class="quiz-options">
+                            <label class="quiz-label"><input type="radio" name="q3" value="correct"> Drew Weissman</label>
+                            <label class="quiz-label"><input type="radio" name="q3" value="wrong"> Robert Koch</label>
+                            <label class="quiz-label"><input type="radio" name="q3" value="wrong"> Szent-Györgyi Albert</label>
+                        </div>
+                    </div>
+                    <div class="center-button" style="margin-top: 2rem;">
+                        <button type="button" class="btn-primary" onclick="checkQuiz()">Kiértékelés</button>
+                    </div>
+                </form>
+                <div id="quiz-result" style="text-align: center; margin-top: 1.5rem; font-weight: bold; font-size: 1.2rem;"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Karikó Katalin Nobel-díjas tudós</h3>
+                <p>Interaktív oktatási anyagok.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Gyorslinkek</h3>
+                <ul>
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="interactive.html">Interaktív</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Karikó Katalin weboldal projekt.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>
+        function checkQuiz() {
+            const form = document.getElementById('quiz-form');
+            const resultDiv = document.getElementById('quiz-result');
+            let score = 0;
+            const answers = ['q1', 'q2', 'q3'];
+            let allAnswered = true;
+
+            answers.forEach(q => {
+                const selected = form.querySelector(`input[name="${q}"]:checked`);
+                if (!selected) {
+                    allAnswered = false;
+                } else if (selected.value === 'correct') {
+                    score++;
+                }
+            });
+
+            if (!allAnswered) {
+                resultDiv.style.color = 'red';
+                resultDiv.textContent = 'Kérlek válaszolj minden kérdésre!';
+            } else {
+                resultDiv.style.color = '#2980b9';
+                resultDiv.textContent = `Eredményed: 3/${score} helyes válasz! ` + (score === 3 ? "Gratulálunk, kiválóan ismered az életrajzát!" : "Olvass utána még egy kicsit!");
+            }
+        }
+    </script>
+</body>
+</html>
