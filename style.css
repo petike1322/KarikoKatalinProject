@@ -380,7 +380,7 @@ h1, h2, h3, h4 {
 
 .videnyo video{
     width: 100%;
-    max-width: 800px;
+    max-width: 280px;
     max-height: 500px;
     margin: 2rem auto;
     display: block;
