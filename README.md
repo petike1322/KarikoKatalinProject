@@ -1,4 +1,0 @@
-# KarikoKatalinProject
-asdasd
-
-asdéfkldéflk
